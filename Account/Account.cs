@@ -20,8 +20,8 @@ namespace Account
 
             tracingService.Trace("Step 1");
 
-            //Credit limit is 1 MIL
-            decimal maxCredit = 1000000;
+            //Credit limit is 500k
+            decimal maxCredit = 500000;
             decimal currentCredit = 0;
             if (entity.Contains("creditlimit"))
             {
