@@ -1,0 +1,41 @@
+# Ignore build directories
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.log
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+
+# Ignore compiled DLLs and PDBs
+*.dll
+*.pdb
+
+# Ignore temporary files
+*.vs/
+*.cache/
+*.config
+*.tmp
+
+# Ignore publish and deployment artifacts
+*.zip
+*.publish.xml
+
+# Ignore Plugin registration tool logs
+*.log
+
+# Ignore any generated documentation
+*.xml
+
+# Ignore environment-specific files
+local.settings.json
